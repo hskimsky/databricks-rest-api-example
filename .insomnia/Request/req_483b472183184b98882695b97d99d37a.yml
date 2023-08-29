@@ -1,0 +1,26 @@
+_id: req_483b472183184b98882695b97d99d37a
+type: Request
+parentId: fld_3aa9a38dd69741bea9e81825b21e68e5
+modified: 1692938067985
+created: 1692937235946
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/token/list"
+name: access token 목록
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_bbb4ed9bfb5e4e569067cfcfa2b13634
+authentication:
+  type: bearer
+  token: dapi4387f1ea518aafb6f00685be822078fa
+metaSortKey: -1692935098860
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_1aeeeb5320594f5c89a85530c943f894
+type: Request
+parentId: fld_c2f34a9ed6674f159150d2c8f7abc333
+modified: 1692953791304
+created: 1692936029487
+url: "{{ _.DATABRICKS_ACCOUNT_CONSOLE }}/api/2.0/accounts/{{
+  _.DATABRICKS_ACCOUNT_ID }}/scim/v2/Groups/125010088561266"
+name: group 할당
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"members": [
+    		{"value": "3388093156059382"}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_9c96fa8d4d6746d5ab7a355840adacaf
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.DATABRICKS_USERNAME }}"
+  password: "{{ _.DATABRICKS_PASSWORD }}"
+metaSortKey: -1692935018315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

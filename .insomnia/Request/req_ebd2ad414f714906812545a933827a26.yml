@@ -1,0 +1,29 @@
+_id: req_ebd2ad414f714906812545a933827a26
+type: Request
+parentId: fld_65a99771c94746fd98155e102ae90dd5
+modified: 1692953826950
+created: 1692923492971
+url: "{{ _.DATABRICKS_ACCOUNT_CONSOLE }}/api/2.0/accounts/{{
+  _.DATABRICKS_ACCOUNT_ID }}/log-delivery"
+name: log-delivery
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.DATABRICKS_USERNAME }}"
+  password: "{{ _.DATABRICKS_PASSWORD }}"
+metaSortKey: -1692923824131
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

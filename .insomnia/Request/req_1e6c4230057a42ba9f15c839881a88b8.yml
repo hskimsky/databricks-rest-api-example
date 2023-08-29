@@ -1,0 +1,33 @@
+_id: req_1e6c4230057a42ba9f15c839881a88b8
+type: Request
+parentId: fld_3aa9a38dd69741bea9e81825b21e68e5
+modified: 1692937683197
+created: 1692937169420
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/token-management/on-behalf-of/tokens"
+name: 영구 access token 생성
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"application_id": "4abe3da9-f69d-4821-be1e-74cce377deda",
+    	"comment": "principal_from_workspace's never expire token"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692935098960
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

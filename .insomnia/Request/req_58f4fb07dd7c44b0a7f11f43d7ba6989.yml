@@ -1,0 +1,29 @@
+_id: req_58f4fb07dd7c44b0a7f11f43d7ba6989
+type: Request
+parentId: fld_6d0ab2826332466fb20cd576018c0e36
+modified: 1692940394613
+created: 1692940285691
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.1/jobs/get"
+name: 특정 job 정보
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b889e5b4f3424d63a3acc93ff9b55354
+    name: job_id
+    value: "432261348586842"
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692940139484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

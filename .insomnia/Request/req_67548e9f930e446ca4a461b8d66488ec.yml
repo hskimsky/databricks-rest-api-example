@@ -1,0 +1,33 @@
+_id: req_67548e9f930e446ca4a461b8d66488ec
+type: Request
+parentId: fld_8d173e9bd7854997b17078e605179de3
+modified: 1692953730770
+created: 1692935427579
+url: "{{ _.DATABRICKS_ACCOUNT_CONSOLE }}/api/2.0/accounts/{{
+  _.DATABRICKS_ACCOUNT_ID }}/scim/v2/Groups"
+name: group 목록
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_232ea59f8829470bb29d13cf8df82aa6
+    name: filter
+    value: displayName sw sky
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.DATABRICKS_USERNAME }}"
+  password: "{{ _.DATABRICKS_PASSWORD }}"
+metaSortKey: -1692935584839
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

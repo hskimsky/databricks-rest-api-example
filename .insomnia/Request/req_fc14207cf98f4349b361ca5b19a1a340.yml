@@ -1,0 +1,33 @@
+_id: req_fc14207cf98f4349b361ca5b19a1a340
+type: Request
+parentId: fld_84238ae40b144597a475b01e5a7832f7
+modified: 1693272925562
+created: 1693272838208
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/1.2/contexts/create"
+name: Create an execution context
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"clusterId": "0824-091920-5qxy7gwj",
+    	"language": "scala"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1693272717059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

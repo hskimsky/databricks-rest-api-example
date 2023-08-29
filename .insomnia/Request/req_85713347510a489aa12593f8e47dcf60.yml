@@ -1,0 +1,35 @@
+_id: req_85713347510a489aa12593f8e47dcf60
+type: Request
+parentId: fld_84238ae40b144597a475b01e5a7832f7
+modified: 1693274148335
+created: 1693273934219
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/1.2/commands/execute"
+name: Run a command(running status test)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"clusterId": "0824-091920-5qxy7gwj",
+    	"contextId": "1677180292901671642",
+    	"language": "scala",
+    	"command": "Thread.sleep(10000)"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1693023353137
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

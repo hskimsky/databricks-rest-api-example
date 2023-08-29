@@ -1,0 +1,33 @@
+_id: req_496de13a6e5b4a5f8594f8b532067633
+type: Request
+parentId: fld_84238ae40b144597a475b01e5a7832f7
+modified: 1693272948478
+created: 1693272948478
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/1.2/contexts/status"
+name: Get status (running)
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_8795f9c307cf4ebab94b2b3334120836
+    name: clusterId
+    value: 0824-091920-5qxy7gwj
+    description: ""
+  - id: pair_e3781df95ab44abda7ee46b1ac07c03c
+    name: contextId
+    value: "1677180292901671642"
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1693106474911
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

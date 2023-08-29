@@ -1,0 +1,24 @@
+_id: req_3cb441b676c7460da9352fe0b989b585
+type: Request
+parentId: fld_d6ce239e9b4142b6890519d3922c3c25
+modified: 1692937885582
+created: 1692928809238
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/unity-catalog/metastores/{{
+  _.DATABRICKS_METASTORE_ID }}/systemschemas/compute"
+name: compute schema 비활성
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1692923987301.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

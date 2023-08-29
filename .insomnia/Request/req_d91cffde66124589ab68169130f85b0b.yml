@@ -1,0 +1,32 @@
+_id: req_d91cffde66124589ab68169130f85b0b
+type: Request
+parentId: fld_a6996b42dadf4ec79cd44a5654ba6468
+modified: 1692939989118
+created: 1692939976197
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/clusters/restart"
+name: 특정 cluster 재시작
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cluster_id": "0824-091920-5qxy7gwj"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692936092238.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_f8ed0a0973984d5f9011e7804c249061
+type: Request
+parentId: fld_d6ce239e9b4142b6890519d3922c3c25
+modified: 1692937867317
+created: 1692924377474
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/unity-catalog/metastores/{{
+  _.DATABRICKS_METASTORE_ID }}/systemschemas/billing"
+name: billing schema 활성
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1692924052877.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

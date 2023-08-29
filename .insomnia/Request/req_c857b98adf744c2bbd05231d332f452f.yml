@@ -1,0 +1,37 @@
+_id: req_c857b98adf744c2bbd05231d332f452f
+type: Request
+parentId: fld_84238ae40b144597a475b01e5a7832f7
+modified: 1693273651259
+created: 1693273250265
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/1.2/commands/status"
+name: Get command info(sql magic in python)
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_632858df650141c7a10ac75d74c6c8ab
+    name: clusterId
+    value: 0824-091920-5qxy7gwj
+    description: ""
+  - id: pair_5d479cd83f8442589ea52693ad5fd48e
+    name: contextId
+    value: "1677180292901671642"
+    description: ""
+  - id: pair_ba691995716e4fde89341cbf3f45b98e
+    name: commandId
+    value: e7e3c696-b446-4bc9-b93f-5fff9522e43e
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1693023353837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_48dcb88164c843bf8ae9f913412a540c
+type: Request
+parentId: fld_84238ae40b144597a475b01e5a7832f7
+modified: 1693274254299
+created: 1693274200419
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/1.2/contexts/destroy"
+name: Delete an execution context
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"clusterId": "0824-091920-5qxy7gwj",
+    	"contextId": "1677180292901671642"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692981792850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

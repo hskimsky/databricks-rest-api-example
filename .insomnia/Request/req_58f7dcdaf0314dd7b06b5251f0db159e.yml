@@ -1,0 +1,29 @@
+_id: req_58f7dcdaf0314dd7b06b5251f0db159e
+type: Request
+parentId: fld_a6996b42dadf4ec79cd44a5654ba6468
+modified: 1692939857760
+created: 1692939685958
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/clusters/get"
+name: 특정 cluster 정보
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d6bc09c8c5fa42d6b66237174628b74f
+    name: cluster_id
+    value: 0824-091920-5qxy7gwj
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692937555244
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

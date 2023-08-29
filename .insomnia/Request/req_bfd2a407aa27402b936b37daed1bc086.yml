@@ -1,0 +1,25 @@
+_id: req_bfd2a407aa27402b936b37daed1bc086
+type: Request
+parentId: fld_a6996b42dadf4ec79cd44a5654ba6468
+modified: 1692939555613
+created: 1692939505785
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/clusters/list"
+name: cluster 목록
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692939505785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

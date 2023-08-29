@@ -1,0 +1,35 @@
+_id: req_a01cbfbdf70e41968fb7bbd72b1e2757
+type: Request
+parentId: fld_c2f34a9ed6674f159150d2c8f7abc333
+modified: 1692953783782
+created: 1692934906479
+url: "{{ _.DATABRICKS_ACCOUNT_CONSOLE }}/api/2.0/accounts/{{
+  _.DATABRICKS_ACCOUNT_ID }}/scim/v2/ServicePrincipals"
+name: service principal 목록
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_43a7c02ff77c42a593035204730669c4
+    name: filter
+    value: displayName co SERVICE or displayName sw SERVICE and displayName ne
+      test_principal
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_bbb4ed9bfb5e4e569067cfcfa2b13634
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.DATABRICKS_USERNAME }}"
+  password: "{{ _.DATABRICKS_PASSWORD }}"
+metaSortKey: -1692935018415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

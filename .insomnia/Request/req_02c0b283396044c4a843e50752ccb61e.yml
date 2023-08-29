@@ -1,0 +1,25 @@
+_id: req_02c0b283396044c4a843e50752ccb61e
+type: Request
+parentId: fld_a6996b42dadf4ec79cd44a5654ba6468
+modified: 1692940117282
+created: 1692940046105
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/clusters/spark-versions"
+name: spark version 목록
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692940046105
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

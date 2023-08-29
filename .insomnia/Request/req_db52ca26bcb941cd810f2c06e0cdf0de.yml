@@ -1,0 +1,37 @@
+_id: req_db52ca26bcb941cd810f2c06e0cdf0de
+type: Request
+parentId: fld_84238ae40b144597a475b01e5a7832f7
+modified: 1693274175830
+created: 1693274175830
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/1.2/commands/status"
+name: Get command info(running status test 2)
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_632858df650141c7a10ac75d74c6c8ab
+    name: clusterId
+    value: 0824-091920-5qxy7gwj
+    description: ""
+  - id: pair_5d479cd83f8442589ea52693ad5fd48e
+    name: contextId
+    value: "1677180292901671642"
+    description: ""
+  - id: pair_ba691995716e4fde89341cbf3f45b98e
+    name: commandId
+    value: e706332e-dda5-4b14-800a-f0d0b4fb03de
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692981792950
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

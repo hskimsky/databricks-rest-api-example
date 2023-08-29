@@ -1,0 +1,31 @@
+_id: req_2b4c66ca68934f1aab2d00717a0d04c2
+type: Request
+parentId: fld_3aa9a38dd69741bea9e81825b21e68e5
+modified: 1692937780051
+created: 1692937532495
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/token/delete"
+name: 자기 자신 access token 취소
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"token_id": "b4f97ae326697d27c387bb5e2677f02cbefc40b1d1e408c53a0be67ff0a30f47"
+    }
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_bbb4ed9bfb5e4e569067cfcfa2b13634
+authentication:
+  type: bearer
+  token: dapic676557c08cb856f9c80e4408041f8cf
+metaSortKey: -1692935058487.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

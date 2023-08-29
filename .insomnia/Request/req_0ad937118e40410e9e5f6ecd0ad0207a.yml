@@ -1,0 +1,32 @@
+_id: req_0ad937118e40410e9e5f6ecd0ad0207a
+type: Request
+parentId: fld_a6996b42dadf4ec79cd44a5654ba6468
+modified: 1692939885270
+created: 1692939862956
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.0/clusters/start"
+name: 특정 cluster 시작
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cluster_id": "0824-091920-5qxy7gwj"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692936579973.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

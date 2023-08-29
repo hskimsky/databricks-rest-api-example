@@ -1,0 +1,45 @@
+_id: req_4542feada1654f50ad0994c8041670f9
+type: Request
+parentId: fld_c2f34a9ed6674f159150d2c8f7abc333
+modified: 1692953772407
+created: 1692934515848
+url: "{{ _.DATABRICKS_ACCOUNT_CONSOLE }}/api/2.0/accounts/{{
+  _.DATABRICKS_ACCOUNT_ID }}/scim/v2/ServicePrincipals"
+name: service principal 생성
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"displayName": "SERVICE_PRINCIPAL_NAME",
+    	"schemas": ["urn:ietf:params:scim:schemas:core:2.0:ServicePrincipal"],
+    	"entitlements": [
+    		{"value": "allow-cluster-create"},
+    		{"value": "databricks-sql-access"},
+    		{"value":"workspace-access"}
+    	],
+    	"active": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/scim+json
+    id: pair_c9b94b6f37f64575835ad74276d2357c
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+    id: pair_bbb4ed9bfb5e4e569067cfcfa2b13634
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: "{{ _.DATABRICKS_USERNAME }}"
+  password: "{{ _.DATABRICKS_PASSWORD }}"
+metaSortKey: -1692935018515
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

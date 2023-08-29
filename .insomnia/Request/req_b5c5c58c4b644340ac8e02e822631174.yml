@@ -1,0 +1,29 @@
+_id: req_b5c5c58c4b644340ac8e02e822631174
+type: Request
+parentId: fld_6d0ab2826332466fb20cd576018c0e36
+modified: 1692941154447
+created: 1692940348202
+url: "{{ _.DATABRICKS_WORKSPACE_URL }}/api/2.1/jobs/runs/list"
+name: 특정 job 실행이력
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4307bc623bcc436c9401d13b44d544d4
+    name: job_id
+    value: "639321808491646"
+    description: ""
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.DATABRICKS_PAT }}"
+metaSortKey: -1692940092794.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
